@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AugustyMSFS - Your Source for YouTube, Magazine, and Books</title>
+    <!-- Add any necessary meta tags for SEO, etc. -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to AugustyMSFS</h1>
+        <nav>
+            <ul>
+                <li><a href="#youtube">YouTube</a></li>
+                <li><a href="#magazine">Magazine</a></li>
+                <li><a href="#books">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="youtube">
+        <h2>YouTube Channel</h2>
+        <!-- Embed YouTube videos, link to playlists, etc. -->
+    </section>
+
+    <section id="magazine">
+        <h2>Magazine</h2>
+        <!-- Information about the magazine, links to articles, etc. -->
+    </section>
+
+    <section id="books">
+        <h2>Books</h2>
+        <!-- List of books, descriptions, links to purchase, etc. -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AugustyMSFS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* styles.css */
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+// Example JavaScript code
+// You can include libraries like jQuery for easier DOM manipulation
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Your JavaScript code here
+    // Example: Slideshow for YouTube videos
+    // Example: Modal for displaying book details
+});
